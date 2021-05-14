@@ -23,6 +23,8 @@ app.post("/events", async (req, res) => {
       })
       .catch((err) => console.log(err));
   }
+
+  res.send({});
 });
 
 app.listen(4003, () => {
